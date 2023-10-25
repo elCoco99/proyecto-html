@@ -4,13 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./favicon/favicon.png" type="image/x-icon">
+    <title>Google</title>
   </head>
   <body>
-    <h1>freeCodeCamp</h1>
-    <p>Aprendiendo Git/GitHub</p>
-    <li>
-      <ol>Pull request a partir de una nueva rama</ol>
-    </li>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Imágenes</a></li>
+        <li>
+          <div class="nav-wrap">
+            <svg id="dots"xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid-dots" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            </svg>
+          </div>
+        </li>
+        <li><div class="nav-wrap"><img src="./img/coco.webp" alt="coco" width="40px"></div></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Google</h1>
+      <div class="search-bar">
+        <div class="svg-cont">
+            <svg id="lupa" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" />
+          </svg>
+        </div>
+        <textarea name="search" id="" cols="30" rows="1"></textarea>
+        <div class="lens-cont">
+          <img id="lens"src="./img/Google_Lens_Icon.svg" alt="buscar por img"/>
+        </div>
+      </div>
+      <div class="buttons">
+        <button>Buscar con Google</button>
+        <button>Voy a tener suerte</button>
+      </div>
+      <div class="lang">
+        <p>Ofrecido por Google en: <a href="#">Quechua</a></p>
+      </div>
+      <footer>
+        <div class="line-1">
+          <p>Perú</p>
+        </div>
+        <div class="line-2">
+          <div class="left">
+            <p><a href="#">Sobre Google</a></p>
+            <p><a href="#">Publicidad</a></p>
+            <p><a href="#">Negocios</a></p>
+            <p><a href="#">Cómo funciona la Búsqueda</a></p>
+          </div>
+          <div class="right">
+            <p><a href="#">Privacidad</a></p>
+            <p><a href="#">Condiciones</a></p>
+            <p><a href="#">Preferencias</a></p>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
